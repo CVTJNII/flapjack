@@ -130,7 +130,9 @@ module Flapjack
             presence << "<x xmlns='http://jabber.org/protocol/muc'><history maxstanzas='0'></x>"
             EventMachine::Synchrony.next_tick do
               write presence
-              say(room, "flapjack's jabber gateway started at #{Time.now}, hello! Try typing 'help'.", :groupchat)
+              # Be quiet!
+              # TODO: Make this configurable so that it can be pushed back upstream
+              # say(room, "flapjack's jabber gateway started at #{Time.now}, hello! Try typing 'help'.", :groupchat)
             end
           end
         end
