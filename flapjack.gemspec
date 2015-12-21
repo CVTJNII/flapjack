@@ -35,7 +35,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'chronic'
   gem.add_dependency 'chronic_duration'
   gem.add_dependency 'terminal-table'
-  gem.add_dependency 'activesupport'
   gem.add_dependency 'ice_cube'
   gem.add_dependency 'tzinfo'
   gem.add_dependency 'tzinfo-data'
