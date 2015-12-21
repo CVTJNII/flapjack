@@ -2,8 +2,6 @@ source 'https://rubygems.org'
 
 gemspec :name => 'flapjack'
 
-gem 'activesupport', '~> 4.2'
-
 group :development do
   gem 'ruby-prof'
 end
